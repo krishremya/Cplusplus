@@ -1,14 +1,14 @@
 #include <iostream>
 using namespace std;
 int main() {
-    int a, b;
-    cin >> a>>b;
-    while(a != b) {
-        if(a > b)
-            a -= b;
+    int d, b;
+    cin >> d>>b;
+    while(d != b) {
+        if(d > b)
+            d -= b;
         else
-            b -= a;
+            d -= a;
     }
-    cout << "GCD is "<<a;
+    cout << "GCD is "<<d;
     return 0;
 }
